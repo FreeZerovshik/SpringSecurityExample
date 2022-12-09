@@ -14,8 +14,9 @@
 	<name>SpringSecurityExample</name>
 	<description>Example work with spring security</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<kotlin.version>1.7.21</kotlin.version>
+		<postgresql.version>42.2.24</postgresql.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -46,7 +47,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
+			<version>${postgresql.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

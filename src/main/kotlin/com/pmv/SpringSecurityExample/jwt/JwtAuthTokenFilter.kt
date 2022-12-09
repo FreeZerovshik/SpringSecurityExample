@@ -1,13 +1,13 @@
 package com.pmv.rest.parser.jwt
 
-import com.pmv.rest.parser.services.impl.UserDetailsServiceImpl
-import io.jsonwebtoken.io.IOException
+import com.pmv.SpringSecurityExample.service.impl.UserDetailsServiceImpl
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource
 import org.springframework.web.filter.OncePerRequestFilter
+import java.io.IOException
 import javax.servlet.FilterChain
 import javax.servlet.ServletException
 import javax.servlet.http.HttpServletRequest
